@@ -51,7 +51,9 @@ namespace CarLotSimulator
                 Console.WriteLine($"Model: {item.Model}");
             }
 
-            
+            CarLot.numberOfCars++;
+            Console.WriteLine($"Number of cars in lot: {CarLot.numberOfCars}");
+
 
             //*************BONUS*************//
 
